@@ -9,3 +9,34 @@ html, body {
     height: 100%;
     width: 100%;
 }
+
+#main {
+    width: 100%;
+    height: 100vh;
+    background-color: #298f9d;
+    display: flex;
+}
+
+#part1 {
+    height: 100%;
+    width: 26%;
+}
+
+#part2 {
+    height: 100%;
+    width: 67%;
+    background-image: url(img-one.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#overlay {
+    height: 100%;
+    width: 100%;
+    background-color: #29909d42;
+}
+
+#part3 {
+    height: 100%;
+    width: 7%;
+}
